@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.toolbar {
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+
+.toolbar button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  background: #555;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.toolbar button:hover {
+  background: #777;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.flipbook {
+  width: 90%;
+  height: 90%;
+  transition: transform 0.3s ease;
+}
+
+.zoomed {
+  transform: scale(1.25);
+}
