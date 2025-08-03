@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   // Auto-generate pages (e.g., 1.jpg to 24.jpg)
-  const totalPages = 24;
+  const totalPages = 10;
   const pages = [];
   for (let i = 1; i <= totalPages; i++) {
     pages.push(`pages/${i}.jpg`);
